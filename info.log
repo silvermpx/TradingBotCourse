@@ -19,3 +19,109 @@
 2023-01-06 10:50:23,884 INFO :: Binance Futures Client successfully initialized
 2023-01-06 12:40:50,751 INFO :: Binance Futures Client successfully initialized
 2023-01-06 14:28:29,939 INFO :: Binance Futures Client successfully initialized
+2023-01-06 16:44:44,563 INFO :: Binance Futures Client successfully initialized
+2023-01-06 16:49:23,435 INFO :: Binance Futures Client successfully initialized
+2023-01-06 16:57:08,679 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:10:53,730 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:15:20,435 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:16:17,722 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:28:10,358 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:39:52,215 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:39:53,869 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:40:26,896 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:41:41,601 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:41:43,315 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:42:58,315 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:42:59,950 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:45:10,957 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:45:12,629 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:45:28,900 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:45:29,935 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:47:51,745 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:48:06,525 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:48:08,645 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:48:28,779 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:48:30,462 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:48:44,515 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:48:48,459 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:48:49,964 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:49:04,003 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:49:05,614 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:56:04,613 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:56:05,871 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 17:57:18,035 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:57:30,303 INFO :: Binance Futures Client successfully initialized
+2023-01-06 17:57:54,713 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:01:28,668 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:01:29,946 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'timestamp' was not sent, was empty/null, or malformed."} (error code 400)
+2023-01-06 18:01:57,170 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:01:58,731 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:02:11,650 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:02:13,185 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'signature' was not sent, was empty/null, or malformed."} (error code 400)
+2023-01-06 18:14:15,726 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:14:17,417 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:16:59,211 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:17:00,387 ERROR :: Error while making GET request to /fapi/v2/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 91.1.224.229'} (error code 401)
+2023-01-06 18:17:00,674 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 91.1.224.229'} (error code 401)
+2023-01-06 18:17:20,029 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:17:21,244 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:25:37,490 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:25:39,149 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:27:56,160 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:27:57,913 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:37:18,077 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:37:19,836 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:45:35,457 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:45:37,147 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 1389.93"} (error code 400)
+2023-01-06 18:45:56,733 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:45:58,236 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 1390.32"} (error code 400)
+2023-01-06 18:46:35,546 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:46:37,050 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 18501.66"} (error code 400)
+2023-01-06 18:47:03,036 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:47:04,848 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:47:47,355 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:47:48,868 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:48:12,134 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:48:13,713 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:48:51,052 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:48:52,798 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:49:15,079 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:49:16,617 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:49:39,752 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:49:41,276 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:50:20,777 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:50:22,496 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 18500.42"} (error code 400)
+2023-01-06 18:51:08,822 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:51:10,392 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'type' was not sent, was empty/null, or malformed."} (error code 400)
+2023-01-06 18:51:48,034 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:51:49,754 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'type' was not sent, was empty/null, or malformed."} (error code 400)
+2023-01-06 18:52:11,154 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:52:12,712 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 18496.96"} (error code 400)
+2023-01-06 18:52:42,604 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:52:44,127 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1022, 'msg': 'Signature for this request is not valid.'} (error code 400)
+2023-01-06 18:53:03,257 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:53:04,785 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 18495.93"} (error code 400)
+2023-01-06 18:53:48,535 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:53:50,127 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 18496.25"} (error code 400)
+2023-01-06 18:54:15,683 INFO :: Binance Futures Client successfully initialized
+2023-01-06 18:56:32,635 INFO :: Binance Futures Client successfully initialized
+2023-01-06 23:53:48,904 INFO :: Binance Futures Client successfully initialized
+2023-01-06 23:55:27,905 INFO :: Binance Futures Client successfully initialized
+2023-01-06 23:55:31,386 ERROR :: Error while making DELETE request to /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (error code 400)
+2023-01-06 23:57:51,807 INFO :: Binance Futures Client successfully initialized
+2023-01-06 23:57:52,796 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400)
+2023-01-06 23:57:53,553 ERROR :: Error while making DELETE request to /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (error code 400)
+2023-01-06 23:58:24,450 INFO :: Binance Futures Client successfully initialized
+2023-01-06 23:58:25,280 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400)
+2023-01-06 23:59:33,928 INFO :: Binance Futures Client successfully initialized
+2023-01-06 23:59:34,903 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400)
+2023-01-06 23:59:35,754 ERROR :: Error while making DELETE request to /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (error code 400)
+2023-01-07 00:00:19,133 INFO :: Binance Futures Client successfully initialized
+2023-01-07 00:00:42,688 INFO :: Binance Futures Client successfully initialized
+2023-01-07 00:00:43,540 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400)
+2023-01-07 00:01:18,352 INFO :: Binance Futures Client successfully initialized
+2023-01-07 00:01:19,320 ERROR :: Error while making DELETE request to /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (error code 400)
+2023-01-07 00:02:02,832 INFO :: Binance Futures Client successfully initialized
+2023-01-07 00:02:24,822 INFO :: Binance Futures Client successfully initialized
+2023-01-07 00:02:25,618 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400)
+2023-01-07 00:02:54,397 INFO :: Binance Futures Client successfully initialized

@@ -20,9 +20,7 @@ class BinanceFuturesClient:
 
         self.public_key = public_key
         self.secret_key = secret_key
-
         self.headers = {'X-MBX-APIKEY': self.public_key}
-
         self.prices = dict()
 
         logger.info("Binance Futures Client successfully initialized")
@@ -33,6 +31,10 @@ class BinanceFuturesClient:
     def make_request(self, method, endpoint, data):
         if method == "GET":
             response = requests.get(self.base_url + endpoint, params=data, headers=self.headers)
+        elif method == "POST":
+            response = requests.post(self.base_url + endpoint, params=data, headers=self.headers)
+        elif method == "DELETE":
+            response = requests.delete(self.base_url + endpoint, params=data, headers=self.headers)
         else:
             raise ValueError()
 
@@ -90,21 +92,49 @@ class BinanceFuturesClient:
 
         balances = dict()
 
-        account_data = self.make_request("GET", "/fapi/v1/account", data)
+        account_data = self.make_request("GET", "/fapi/v2/account", data)
 
         if account_data is not None:
             for a in account_data['assets']:
-                balances[a['assets']] = a
+                balances[a['asset']] = a
 
         return balances
 
-    def place_order(self):
-        return
+    def place_order(self, symbol, side, quantity, order_type, price=None, tif=None):
 
-    def cancel_order(self):
-        return
+        data = dict()
+        data['symbol'] = symbol
+        data['side'] = side
+        data['quantity'] = quantity
+        data['type'] = order_type
 
-    def get_order_status(self, symbol, order_id,):
+
+        if price is not None:
+            data['price'] = price
+
+        if tif is not None:
+            data['timeInForce'] = tif
+
+        data['timestamp'] = int(time.time() * 1000)
+        data['signature'] = self.generate_signature(data)
+
+        order_status = self.make_request("POST", "/fapi/v1/order", data)
+
+        return order_status
+
+    def cancel_order(self, symbol, order_id):
+
+        data = dict()
+        data['symbol'] = symbol
+        data['orderID'] = order_id
+        data['timestamp'] = int(time.time() * 1000)
+        data['signature'] = self.generate_signature(data)
+
+        order_status = self.make_request("DELETE", "/fapi/v1/order", data)
+
+        return order_status
+
+    def get_order_status(self, symbol, order_id):
 
         data = dict()
         data['timestamp'] = int(time.time() * 1000)
