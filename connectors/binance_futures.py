@@ -86,14 +86,17 @@ class BinanceFuturesClient:
     def get_balances(self):
         data = dict()
         data['timestamp'] = int(time.time() * 1000)
-        data['signature'] = self.generat_signature(data)
+        data['signature'] = self.generate_signature(data)
 
         balances = dict()
 
-
         account_data = self.make_request("GET", "/fapi/v1/account", data)
 
-        return
+        if account_data is not None:
+            for a in account_data['assets']:
+                balances[a['assets']] = a
+
+        return balances
 
     def place_order(self):
         return
@@ -101,5 +104,14 @@ class BinanceFuturesClient:
     def cancel_order(self):
         return
 
-    def get_order_status(self):
-        return
+    def get_order_status(self, symbol, order_id,):
+
+        data = dict()
+        data['timestamp'] = int(time.time() * 1000)
+        data['symbol'] = symbol
+        data['order_id'] = order_id
+        data['signature'] = self.generate_signature(data)
+
+        order_status = self.make_request("GET", "/fapi/v1/order", data)
+
+        return order_status
